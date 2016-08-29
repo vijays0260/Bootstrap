@@ -1,0 +1,197 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+body{
+  -webkit-font-smoothing:antialiased;
+  text-rendering: optimizeLegibility;
+}
+  #features{
+    text-align: center;
+  }
+  #features img{
+    margin: 0 0 20px;
+  }
+  .navbar{
+    background: black;
+  }
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+   .well .page-header{
+     margin-top: 0;
+   }
+   .well .page-header h1{
+     margin-top: 0;
+   }
+   #inputMessage{
+     margin-bottom: 20px;
+   }
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+   #searchInput{
+     width:200px;
+   }
+   .navbar-brand{
+     padding: 13px 15px;
+   }
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+  #myCarousel{
+    margin-top: 60px;
+  }
+  .carousel-caption{
+    font-size: 24px;
+  }
+  .carousel-caption h4{
+    font-size: 32px;
+  }
+  #myCarousel .item{
+    height: 400px;
+  }
+  #slide1{
+    background: url('../../images/head11.jpg') top center no-repeat;
+  }
+  #slide2{
+    background: url('../../images/head32..jpg') top center no-repeat;
+  }
+  #slide3{
+    background: url('../../images/head32.png') top center no-repeat;
+  }
+  #slide4{
+    background: url('../../images/sonyhead22.jpg') top center no-repeat;
+  }
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+   body{
+     font-family: 'Lato', sans-serif;
+   }
+   h1,h2,h3{
+     font-family: 'Lato', sans-serif;
+   }
+   .alert{
+     display: none;
+     margin-top: 20px;
+   }
+.well{
+  margin-top: 20px;
+}
+
+  .panel{
+    position: relative;
+  }
+
+  #xperiac5{
+    text-align: center;
+  }
+  .panel .price{
+    font-size: 15px;
+    position: absolute;
+    top:-20px;
+    right: 0px;
+    padding: 10px;
+  }
+
+  .panel  span.glyphicon{
+    margin-right: 5px;
+  }
+  #moreCourses{
+    padding-bottom: 40px;
+  }
+  .newuser{
+    text-align: justify;
+  }
+  #line{
+    text-align: justify;
+    font-size: 16px;
+  }
+    footer{
+      font-family: 'Lato', sans-serif;
+      background: #333;
+      color: white;
+      font-size: 11px;
+      padding: 20px;
+    }
+    ul.unstyled{
+      list-style: none;
+      padding: 0;
+    }
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+  .panel .price{
+    font-size: 12px;
+  }
+
+  .panel .warning{
+    font-size: 12px;
+  }
+
+
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+  #myCarousel .item{
+    height: 310px;
+  }
+  #slide1{
+    background: url('../../images/head13.jpg') top center no-repeat;
+  }
+  #slide2{
+    background: url('../../images/head33..jpg') top center no-repeat;
+  }
+  #slide3{
+    background: url('../../images/head33.png') top center no-repeat;
+  }
+  #slide4{
+    background: url('../../images/sonyhead23.jpg') top center no-repeat;
+  }
+  .carousel-caption{
+    font-size: 16px;
+  }
+  .carousel-caption h4{
+    font-size: 22px;
+  }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  #myCarousel .item{
+    height: 500px;
+  }
+  #slide1{
+    background: url('../../images/head1.jpg') top center no-repeat;
+  }
+  #slide2{
+    background: url('../../images/head5.jpg') top center no-repeat;
+  }
+  #slide3{
+    background: url('../../images/head3.png') top center no-repeat;
+  }
+  #slide4{
+    background: url('../../images/sonyhead2.jpg') top center no-repeat;
+  }
+}
